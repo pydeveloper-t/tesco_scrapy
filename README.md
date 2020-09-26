@@ -21,6 +21,10 @@ The Scrapy based parser for crawling tesco.com
 ```
 	git clone https://github.com/pydeveloper-t/tesco_scrapy.git . 
 ```	
+- Set an environment variable to place virtual environment in the same folder
+```
+	set export PIPENV_VENV_IN_PROJECT=1
+```	
 -  Installing all neccessary packages
 ```
     cd <project_folder>
